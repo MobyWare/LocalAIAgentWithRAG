@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "*"
+langchain-ollama = "*"
+langchain-chroma = "*"
+pandas = "*"
+
+[dev-packages]
+ipykernel = "*"
+jupyter = "*"
+
+[requires]
+python_version = "3.12"
